@@ -1,0 +1,47 @@
+# Compiled binaries
+*.o
+*.out
+*.a
+*.so
+*.exe
+
+# DSA compiled outputs (no extension executables like "solution", "main")
+# Add folder-specific patterns if needed
+**/main
+**/solution
+**/a.out
+
+# Build directories
+build/
+bin/
+out/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+*.ninja
+
+# VSCode
+.vscode/
+
+# clangd cache
+.cache/
+compile_commands.json
+
+# GDB
+.gdb_history
+*.dSYM/
+
+# Valgrind
+*.log
+vgcore.*
+
+# Linux junk
+.DS_Store
+*~
+*.swp
+*.swo
+Thumbs.db

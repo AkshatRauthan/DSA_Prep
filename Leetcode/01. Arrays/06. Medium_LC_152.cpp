@@ -1,7 +1,3 @@
-#include "iostream"
-#include "vector"
-using namespace std;
-
 /**
  *  LC 152: Maximum Product Subarray => Medium
  *  Topics: Arrays, DP
@@ -18,6 +14,12 @@ using namespace std;
  *  Explanation: [2,3] has the largest product 6.
  *
 */
+
+
+#include "iostream"
+#include "vector"
+using namespace std;
+
 
 int maxProduct(vector<int>& v) {
     vector<vector<int>> dp = vector<vector<int>>(v.size(), vector<int>(2, 1));
